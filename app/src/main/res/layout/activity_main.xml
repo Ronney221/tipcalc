@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <EditText
@@ -16,8 +17,23 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="111dp"
         android:layout_height="wrap_content"
         android:text="Tip" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="258dp"
+        android:layout_height="89dp"
+        android:max="10"
+        android:progress="5" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="10%---------------15%--------18%--20%" />
 
 </LinearLayout>
